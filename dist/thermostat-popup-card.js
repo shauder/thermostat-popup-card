@@ -291,6 +291,7 @@ const ht=new WeakMap,dt=(ut=t=>e=>{if(!(e instanceof x)||e instanceof k||"class"
         }
         #settings {
           display:none;
+          overflow: hidden;
         }
         .settings-inner {
           height: 100%;
@@ -302,6 +303,7 @@ const ht=new WeakMap,dt=(ut=t=>e=>{if(!(e instanceof x)||e instanceof k||"class"
         }
         #settings.on {
           display:flex;
+          overflow: hidden;
         }
         .settings-btn {
           position:absolute;
@@ -428,7 +430,7 @@ const ht=new WeakMap,dt=(ut=t=>e=>{if(!(e instanceof x)||e instanceof k||"class"
           justify-content: center;
           padding: 16px;
           position: relative;
-          width:500px;
+          width: auto;
         }
         #slider {
           height: 100%;
@@ -473,7 +475,7 @@ const ht=new WeakMap,dt=(ut=t=>e=>{if(!(e instanceof x)||e instanceof k||"class"
           font-size:60px;
           line-height: 60px;
         }
-        
+              
         #modes > * {
           color: var(--disabled-text-color);
           cursor: pointer;

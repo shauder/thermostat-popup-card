@@ -411,6 +411,7 @@ class ThermostatPopupCard extends LitElement {
         }
         #settings {
           display:none;
+          overflow: hidden;
         }
         .settings-inner {
           height: 100%;
@@ -422,6 +423,7 @@ class ThermostatPopupCard extends LitElement {
         }
         #settings.on {
           display:flex;
+          overflow: hidden;
         }
         .settings-btn {
           position:absolute;
@@ -548,7 +550,7 @@ class ThermostatPopupCard extends LitElement {
           justify-content: center;
           padding: 16px;
           position: relative;
-          width:500px;
+          width: auto;
         }
         #slider {
           height: 100%;
@@ -593,7 +595,7 @@ class ThermostatPopupCard extends LitElement {
           font-size:60px;
           line-height: 60px;
         }
-        
+              
         #modes > * {
           color: var(--disabled-text-color);
           cursor: pointer;
